@@ -38,8 +38,8 @@ company_filings <- function(x,
   entries_xpath <- "entry"
 
   info_pieces <- list(
-    "accession_number" = "./content/accession-nunber", # Yes, this is right.
-                                                       # number is misspelled
+    "accession_number" = "./content/accession-number", 
+                                                       
     "act" = "./content/act",
     "file_number" = "./content/file-number",
     "filing_date" = "./content/filing-date",
